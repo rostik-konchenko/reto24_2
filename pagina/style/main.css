@@ -1,0 +1,41 @@
+:root {
+  --color1: #12100e;
+  --color2: #33673b;
+  --color3: #bea8aa;
+  --color4: #e4fde1;
+  --color5: #ffeeeb;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-tabs .nav-link i {
+  margin-right: 5px;
+}
+
+.navbar {
+  background-color: var(--color4);
+}
+
+.navbar-brand {
+  color: var(--color1);
+}
+
+.footer {
+  margin-top: 20px;
+  background-color: var(--color4);
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer a {
+  margin: 0 10px;
+  color: var(--color1);
+}
+
+.central-block {
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin-top: 20px;
+}
