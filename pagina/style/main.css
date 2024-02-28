@@ -39,3 +39,11 @@ html {
   padding: 20px;
   margin-top: 20px;
 }
+
+.container {
+  margin-top: 20px;
+}
+
+.btn i {
+  margin-right: 10px;
+}
