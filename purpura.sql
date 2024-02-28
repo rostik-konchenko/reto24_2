@@ -127,3 +127,17 @@ ALTER TABLE `pedidos` ADD FOREIGN KEY (`idusuario`) REFERENCES `usuarios` (`id`)
 ALTER TABLE `linea_pedido` ADD FOREIGN KEY (`idpedido`) REFERENCES `pedidos` (`id`);
 
 ALTER TABLE `linea_pedido` ADD FOREIGN KEY (`idproducto`) REFERENCES `producto` (`id`);
+
+INSERT INTO `unidad` (`id`, `descripcion`, `observaciones`) VALUES
+(1, 'carton',''),
+(2, 'docena',''),
+(3, 'bolsa 5kg',''),
+(4, 'caja','');
+
+INSERT INTO `producto` (`id`, `descripcion`, `idunidades`,`observaciones`) VALUES
+(1,'leche',1,''),
+(2,'huevos',1,'');
+
+INSERT INTO `usuarios` (`id`, `admin`, `nombre`,`mail`,`pswd`,`activo`,`telefono1`,`telefono2`,`observaciones`) VALUES
+(1, TRUE,'admin', 'luis@gmail.com',`admin`, true, 942681234, 942671234, ''),
+(2, FALSE,'usuario','paco@gmail.com','usuario', true, 942681234, 942671234, '');
