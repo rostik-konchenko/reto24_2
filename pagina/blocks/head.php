@@ -4,17 +4,20 @@ if (!isset($titulo)) {
     $titulo = "Bon Appetit";
 };
 
-echo "
+?>
+
 <!DOCTYPE html>
 <html lang='es'>
+
 <head>
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <title>$titulo</title>
+    <title> <?php $titulo ?> </title>
     <link rel='stylesheet' href='../style/bootstrap.css'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
     <link rel='stylesheet' href='../style/main.css?v=1a04'>
 </head>
+
 <body>
     <div class='container'>
         <header class='row'>
@@ -43,5 +46,3 @@ echo "
             </nav>
         </header>
     </div>
-";
-?>
