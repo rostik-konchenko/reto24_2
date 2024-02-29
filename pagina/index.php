@@ -1,3 +1,5 @@
-<?php
-
-header("Location: ./pages/menu.php");
+<script>
+window.onload = function() {
+    window.location.href = "./pages/menu.php";
+}
+</script>

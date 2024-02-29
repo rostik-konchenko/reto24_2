@@ -1,3 +1,5 @@
-<?php
-
-header("Location: ./pagina/index.php");
+<script>
+window.onload = function() {
+    window.location.href = "./pagina/index.php";
+}
+</script>
