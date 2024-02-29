@@ -41,6 +41,9 @@ if (!isset($titulo)) {
                         <li class='nav-item'>
                             <a class='nav-link' href='../pages/usuario.php'><i class='fas fa-user'></i> Usuario</a>
                         </li>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='../pages/pedido.php'><i class='fas fa-check'></i> Pedido</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
