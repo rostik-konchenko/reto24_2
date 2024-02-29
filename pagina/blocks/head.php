@@ -22,7 +22,7 @@ if (!isset($titulo)) {
     <div class='container'>
         <header class='row'>
             <nav class='col-12 navbar navbar-expand-lg navbar-light header-tabs navegador'>
-                <a class='navbar-brand' href='#'>Mi Sitio</a>
+                <a class='navbar-brand' href='../pages/menu.php'>Bon Appetit</a>
                 <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
                     <span class='navbar-toggler-icon'></span>
                 </button>
@@ -30,16 +30,16 @@ if (!isset($titulo)) {
                 <div class='collapse navbar-collapse' id='navbarSupportedContent'>
                     <ul class='navbar-nav mr-auto'>
                         <li class='nav-item'>
-                            <a class='nav-link active' href='#'><i class='fas fa-home'></i> Principal</a>
+                            <a class='nav-link active' href='../pages/menu.php'><i class='fas fa-home'></i> Principal</a>
                         </li>
                         <li class='nav-item'>
-                            <a class='nav-link' href='#'><i class='fas fa-box'></i> Pedidos</a>
+                            <a class='nav-link' href='../pages/historial.php'><i class='fas fa-box'></i> Pedidos</a>
                         </li>
                         <li class='nav-item'>
-                            <a class='nav-link' href='#'><i class='fas fa-tasks'></i> Estado</a>
+                            <a class='nav-link' href='../pages/estado.php'><i class='fas fa-tasks'></i> Estado</a>
                         </li>
                         <li class='nav-item'>
-                            <a class='nav-link' href='#'><i class='fas fa-user'></i> Usuario</a>
+                            <a class='nav-link' href='../pages/usuario.php'><i class='fas fa-user'></i> Usuario</a>
                         </li>
                     </ul>
                 </div>

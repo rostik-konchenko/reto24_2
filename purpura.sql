@@ -131,12 +131,21 @@ ALTER TABLE `linea_pedido` ADD FOREIGN KEY (`idproducto`) REFERENCES `producto` 
 INSERT INTO `unidad` (`id`, `descripcion`, `observaciones`) VALUES
 (1, 'carton',''),
 (2, 'docena',''),
-(3, 'bolsa 5kg',''),
-(4, 'caja','');
+(3, 'bolsa',''),
+(4, 'caja',''),
+(5, 'unidad','');
 
 INSERT INTO `producto` (`id`, `descripcion`, `idunidades`,`observaciones`) VALUES
 (1,'leche',1,''),
-(2,'huevos',1,'');
+(2,'huevos',1,''),
+(3,'barra de pan',3,''),
+(4,'galleta',4,''),
+(5,'zanahoria',4,''),
+(6,'naranaja',4,''),
+(7,'manzana',4,''),
+(8,'cebolla',3,''),
+(9,'patata',3,''),
+(10,'lubina',5,'');
 
 INSERT INTO `usuarios` (`id`, `admin`, `nombre`,`mail`,`pswd`,`activo`,`telefono1`,`telefono2`,`observaciones`) VALUES
 (1, TRUE,'admin', 'luis@gmail.com',`admin`, true, 942681234, 942671234, ''),
